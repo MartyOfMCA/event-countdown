@@ -1,0 +1,5 @@
+# Ignore any files and directories whih do not store source code files
+
+/Console/.vs
+/Console/bin
+/Console/obj
