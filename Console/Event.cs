@@ -13,14 +13,8 @@
             this.Name = name;
             this.Description = description;
             this.Priority = priority;
+            this.DateAdded = DateTime.Now;
             this.DateHappening= dateHappening;
-        }
-
-        public DateTime AddEvent()
-        {
-
-            DateAdded = DateTime.Now;
-            return DateAdded;
         }
     }
 }
